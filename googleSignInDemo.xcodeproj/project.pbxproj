@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		BEC7668225E62A030067F1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7668125E62A030067F1E6 /* AppDelegate.swift */; };
 		BEC7668425E62A030067F1E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7668325E62A030067F1E6 /* SceneDelegate.swift */; };
-		BEC7668625E62A030067F1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7668525E62A030067F1E6 /* ViewController.swift */; };
+		BEC7668625E62A030067F1E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7668525E62A030067F1E6 /* LoginViewController.swift */; };
 		BEC7668925E62A030067F1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC7668725E62A030067F1E6 /* Main.storyboard */; };
 		BEC7668B25E62A1B0067F1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC7668A25E62A1B0067F1E6 /* Assets.xcassets */; };
 		BEC7668E25E62A1C0067F1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC7668C25E62A1C0067F1E6 /* LaunchScreen.storyboard */; };
+		BEC7669A25E62BF30067F1E6 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC7669725E62BF10067F1E6 /* GoogleSignInDependencies.framework */; };
+		BEC7669B25E62BF30067F1E6 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC7669825E62BF20067F1E6 /* GoogleSignIn.framework */; };
+		BEC7669C25E62BF30067F1E6 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BEC7669925E62BF30067F1E6 /* GoogleSignIn.bundle */; };
+		BEC766A125E630500067F1E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC766A025E630500067F1E6 /* SystemConfiguration.framework */; };
+		BEC766A325E630560067F1E6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC766A225E630560067F1E6 /* LocalAuthentication.framework */; };
+		BEC766A525E630630067F1E6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC766A425E630630067F1E6 /* SafariServices.framework */; };
+		BEC766AC25E635390067F1E6 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC766AB25E635390067F1E6 /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEC7667E25E62A030067F1E6 /* googleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC7668125E62A030067F1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC7668325E62A030067F1E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEC7668525E62A030067F1E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC7668525E62A030067F1E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BEC7668825E62A030067F1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC7668A25E62A1B0067F1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC7668D25E62A1C0067F1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC7668F25E62A1C0067F1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC7669725E62BF10067F1E6 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		BEC7669825E62BF20067F1E6 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		BEC7669925E62BF30067F1E6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		BEC766A025E630500067F1E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BEC766A225E630560067F1E6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		BEC766A425E630630067F1E6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		BEC766AB25E635390067F1E6 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC766A525E630630067F1E6 /* SafariServices.framework in Frameworks */,
+				BEC766A325E630560067F1E6 /* LocalAuthentication.framework in Frameworks */,
+				BEC766A125E630500067F1E6 /* SystemConfiguration.framework in Frameworks */,
+				BEC7669A25E62BF30067F1E6 /* GoogleSignInDependencies.framework in Frameworks */,
+				BEC7669B25E62BF30067F1E6 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				BEC7668025E62A030067F1E6 /* googleSignInDemo */,
 				BEC7667F25E62A030067F1E6 /* Products */,
+				BEC7669F25E630500067F1E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,29 @@
 		BEC7668025E62A030067F1E6 /* googleSignInDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEC766AB25E635390067F1E6 /* credentials.plist */,
+				BEC7669925E62BF30067F1E6 /* GoogleSignIn.bundle */,
+				BEC7669825E62BF20067F1E6 /* GoogleSignIn.framework */,
+				BEC7669725E62BF10067F1E6 /* GoogleSignInDependencies.framework */,
 				BEC7668125E62A030067F1E6 /* AppDelegate.swift */,
 				BEC7668325E62A030067F1E6 /* SceneDelegate.swift */,
-				BEC7668525E62A030067F1E6 /* ViewController.swift */,
+				BEC7668525E62A030067F1E6 /* LoginViewController.swift */,
 				BEC7668725E62A030067F1E6 /* Main.storyboard */,
 				BEC7668A25E62A1B0067F1E6 /* Assets.xcassets */,
 				BEC7668C25E62A1C0067F1E6 /* LaunchScreen.storyboard */,
 				BEC7668F25E62A1C0067F1E6 /* Info.plist */,
 			);
 			path = googleSignInDemo;
+			sourceTree = "<group>";
+		};
+		BEC7669F25E630500067F1E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC766A425E630630067F1E6 /* SafariServices.framework */,
+				BEC766A225E630560067F1E6 /* LocalAuthentication.framework */,
+				BEC766A025E630500067F1E6 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC7669C25E62BF30067F1E6 /* GoogleSignIn.bundle in Resources */,
 				BEC7668E25E62A1C0067F1E6 /* LaunchScreen.storyboard in Resources */,
+				BEC766AC25E635390067F1E6 /* credentials.plist in Resources */,
 				BEC7668B25E62A1B0067F1E6 /* Assets.xcassets in Resources */,
 				BEC7668925E62A030067F1E6 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC7668625E62A030067F1E6 /* ViewController.swift in Sources */,
+				BEC7668625E62A030067F1E6 /* LoginViewController.swift in Sources */,
 				BEC7668225E62A030067F1E6 /* AppDelegate.swift in Sources */,
 				BEC7668425E62A030067F1E6 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,10 +324,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q459GXYYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/googleSignInDemo",
+				);
 				INFOPLIST_FILE = googleSignInDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = neha.gupta.googleSignInDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,10 +351,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q459GXYYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/googleSignInDemo",
+				);
 				INFOPLIST_FILE = googleSignInDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = neha.gupta.googleSignInDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
